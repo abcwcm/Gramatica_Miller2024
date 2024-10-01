@@ -5,7 +5,7 @@
 The quality of the sequenced reads was assessed with FastQC and QoRTs. Unless stated otherwise, plots involving high- throughput sequencing data were created using R and ggplot2.
 
 ## RNA-SEQ data analysis
-Raw reads were quality checked with FastQC v0.11.7 (http://www.bioinformatics.babraham.ac.uk/projects/fastqc/). Reads were aligned to the human reference genome (GRCh38.p12) using STAR v2.6.0c with default parameters. Gene abundances were calculated with featureCounts v1.6.2 using composite gene models from Gencode release v28. Differentially expressed genes were determined with DESeq2 v1.34.0 using Wald tests (q < 0.05).
+Raw reads were quality checked with FastQC v0.11.7 (http://www.bioinformatics.babraham.ac.uk/projects/fastqc/). Reads were aligned to the human reference genome (GRCh38.p12) using STAR v2.6.0c with default parameters. Gene abundances were calculated with featureCounts v1.6.2 using composite gene models from Gencode release v28. Differentially expressed genes were determined with DESeq2 v1.34.0 using Wald tests (q < 0.01).
 
 ## Software used
 
