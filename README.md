@@ -1,6 +1,6 @@
 ![](WCM_MB_LOGO_HZSS1L_CLR_RGB.png)
 
-# Bioinformatic methods for Gramatica and Miller1 et al.
+# Bioinformatic methods for Gramatica and Miller et al.
 
 The quality of the sequenced reads was assessed with FastQC and QoRTs. Unless stated otherwise, plots involving high- throughput sequencing data were created using R and ggplot2.
 
